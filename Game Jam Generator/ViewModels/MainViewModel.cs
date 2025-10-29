@@ -35,7 +35,7 @@ namespace Game_Jam_Generator.ViewModels
 
         private void OnButtonClicked()
         {
-            string[] themes = {"Space", "Mission Impossible", "Time Travel", "Underwater", "The Realm" };
+            string[] themes = {"Space", "Mission Impossible", "Time Travel", "Underwater", "The Realm", "The Clock", "Elements", "Old and New", "Jurassic", "Lost", "Home", "Fix", "Reincarnation", "Popularity", "Wisdom", "Onomatopoeia", "The One Who Got Away", "Mitochondria" };
             Random rand = new Random();
             LabelText = themes[rand.Next(themes.Length)];
             Console.WriteLine("Button clicked!");
